@@ -1,0 +1,35 @@
+.status-indicator {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.status-indicator.connected {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.status-indicator.disconnected {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.last-update {
+  margin-left: 10px;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.error {
+  color: #ff4444;
+} 

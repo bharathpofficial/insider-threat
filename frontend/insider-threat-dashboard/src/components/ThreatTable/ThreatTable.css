@@ -1,0 +1,73 @@
+.threat-table-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.threat-table-container {
+  width: 100%;
+  height: calc(100vh - 150px); /* Adjust based on your header size */
+  overflow-y: auto;
+  overflow-x: auto;
+  margin-top: 20px;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.threat-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.threat-table th {
+  position: sticky;
+  top: 0;
+  background-color: #1a1a1a;
+  color: white;
+  z-index: 1;
+}
+
+.threat-table th,
+.threat-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+.threat-row {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.safe-row {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.new-row {
+  animation: highlightNew 1s ease-out;
+}
+
+@keyframes highlightNew {
+  from { background-color: rgba(255, 255, 0, 0.2); }
+  to { background-color: inherit; }
+}
+
+.resume-scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.2s;
+}
+
+.resume-scroll-button:hover {
+  background-color: #0056b3;
+} 

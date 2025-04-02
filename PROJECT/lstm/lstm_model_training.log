@@ -1,0 +1,668 @@
+2024-11-29 16:34:04,022 - INFO - Created Folder saved_models at ./saved_models
+2024-11-29 16:34:04,022 - INFO - Started Pipeline ...
+2024-11-29 16:34:04,025 - INFO - Shape of the input (10, 12)
+2024-11-29 16:34:04,025 - INFO - Input shape used for LSTM input (10, 12)
+2024-11-29 16:34:05,130 - INFO - Dense used input as input_shape[1] is 12
+2024-11-29 16:34:05,135 - INFO - LSTM Model Compiled
+2024-11-29 16:34:05,135 - INFO - Starting training process
+2024-11-29 16:34:05,205 - INFO - Loaded first batch dataset with shape (104857, 12)
+2024-11-29 16:34:05,205 - INFO - Generating sequences of length 10 for dataset
+2024-11-29 16:34:07,063 - INFO - Generated sequences
+2024-11-29 16:35:25,643 - INFO - Started Pipeline ...
+2024-11-29 16:35:25,646 - INFO - Shape of the input (10, 12)
+2024-11-29 16:35:25,647 - INFO - Input shape used for LSTM input (10, 12)
+2024-11-29 16:35:26,554 - INFO - Dense used input as input_shape[1] is 12
+2024-11-29 16:35:26,559 - INFO - LSTM Model Compiled
+2024-11-29 16:35:26,559 - INFO - Starting training process
+2024-11-29 16:35:26,623 - INFO - Loaded first batch dataset with shape (104857, 12)
+2024-11-29 16:35:26,623 - INFO - Generating sequences of length 10 for dataset
+2024-11-29 16:35:28,489 - INFO - Generated sequences
+2024-11-29 16:57:38,422 - ERROR - ==================================
+Object was never used (type <class 'tensorflow.python.ops.tensor_array_ops.TensorArray'>):
+<tensorflow.python.ops.tensor_array_ops.TensorArray object at 0x7fe8aec8c850>
+If you want to mark it as used call its "mark_used()" method.
+It was originally created here:
+  File "/home/mite/anaconda3/envs/insider_threat/lib/python3.10/site-packages/keras/src/backend/tensorflow/rnn.py", line 418, in <genexpr>
+    output_ta_t = tuple(  File "/home/mite/anaconda3/envs/insider_threat/lib/python3.10/site-packages/tensorflow/python/util/tf_should_use.py", line 288, in wrapped
+    return _add_should_use_warning(fn(*args, **kwargs),
+==================================
+2024-11-30 09:12:36,211 - INFO - Started Pipeline ...
+2024-11-30 09:12:36,442 - INFO - Shape of the input (10, 12)
+2024-11-30 09:12:36,444 - INFO - Input shape used for LSTM input (10, 12)
+2024-11-30 09:12:45,725 - INFO - Dense used input as input_shape[1] is 12
+2024-11-30 09:12:45,730 - INFO - LSTM Model Compiled
+2024-11-30 09:12:45,730 - INFO - Starting training process
+2024-11-30 09:12:46,750 - INFO - Loaded first batch dataset with shape (104857, 12)
+2024-11-30 09:12:46,750 - INFO - Generating sequences of length 10 for dataset
+2024-11-30 09:12:48,571 - INFO - Generated sequences
+2024-11-30 12:45:37,693 - INFO - First batch training completed
+2024-11-30 12:45:38,097 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-11-30 12:45:38,227 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-11-30 12:45:38,430 - INFO - Batch 1 Intermediate model saved and memory cleaned
+2024-11-30 12:45:38,431 - INFO - Loading model for batch 2
+2024-11-30 12:45:38,618 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-11-30 12:45:38,626 - INFO - Added 10% of Previous dataset to the current dataset
+2024-11-30 12:45:38,627 - INFO - batch_data shape now became (114857, 12)
+2024-11-30 12:45:38,627 - INFO - Generating sequences of length 10 for dataset
+2024-11-30 12:45:40,722 - INFO - Generated sequences
+2024-11-30 16:41:04,914 - INFO - Batch 2 training completed
+2024-11-30 16:41:04,930 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-11-30 16:41:04,970 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-11-30 16:41:05,303 - INFO - Batch 2 Intermediate model saved and memory cleaned
+2024-11-30 16:41:05,305 - INFO - Loading model for batch 3
+2024-11-30 16:41:05,595 - INFO - Loaded batch 3 dataset with shape (104857, 12)
+2024-11-30 16:41:05,602 - INFO - Added 10% of Previous dataset to the current dataset
+2024-11-30 16:41:05,602 - INFO - batch_data shape now became (114857, 12)
+2024-11-30 16:41:05,602 - INFO - Generating sequences of length 10 for dataset
+2024-11-30 16:41:07,538 - INFO - Generated sequences
+2024-11-30 20:39:21,008 - INFO - Batch 3 training completed
+2024-11-30 20:39:21,024 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-11-30 20:39:21,064 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-11-30 20:39:21,415 - INFO - Batch 3 Intermediate model saved and memory cleaned
+2024-11-30 20:39:21,417 - INFO - Loading model for batch 4
+2024-11-30 20:39:21,707 - INFO - Loaded batch 4 dataset with shape (104857, 12)
+2024-11-30 20:39:21,715 - INFO - Added 10% of Previous dataset to the current dataset
+2024-11-30 20:39:21,715 - INFO - batch_data shape now became (114857, 12)
+2024-11-30 20:39:21,715 - INFO - Generating sequences of length 10 for dataset
+2024-11-30 20:39:23,696 - INFO - Generated sequences
+2024-12-01 00:38:09,948 - INFO - Batch 4 training completed
+2024-12-01 00:38:09,964 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-01 00:38:10,005 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-01 00:38:10,378 - INFO - Batch 4 Intermediate model saved and memory cleaned
+2024-12-01 00:38:10,380 - INFO - Loading model for batch 5
+2024-12-01 00:38:10,670 - INFO - Loaded batch 5 dataset with shape (104857, 12)
+2024-12-01 00:38:10,678 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-01 00:38:10,678 - INFO - batch_data shape now became (114857, 12)
+2024-12-01 00:38:10,678 - INFO - Generating sequences of length 10 for dataset
+2024-12-01 00:38:12,664 - INFO - Generated sequences
+2024-12-01 04:36:59,974 - INFO - Batch 5 training completed
+2024-12-01 04:36:59,990 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-01 04:37:00,030 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-01 04:37:00,401 - INFO - Batch 5 Intermediate model saved and memory cleaned
+2024-12-01 04:37:00,403 - INFO - Loading model for batch 6
+2024-12-01 04:37:00,697 - INFO - Loaded batch 6 dataset with shape (104857, 12)
+2024-12-01 04:37:00,705 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-01 04:37:00,705 - INFO - batch_data shape now became (114857, 12)
+2024-12-01 04:37:00,705 - INFO - Generating sequences of length 10 for dataset
+2024-12-01 04:37:02,694 - INFO - Generated sequences
+2024-12-01 08:36:08,683 - INFO - Batch 6 training completed
+2024-12-01 08:36:08,699 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-01 08:36:08,739 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-01 08:36:09,109 - INFO - Batch 6 Intermediate model saved and memory cleaned
+2024-12-01 08:36:09,112 - INFO - Loading model for batch 7
+2024-12-01 08:36:09,391 - INFO - Loaded batch 7 dataset with shape (104857, 12)
+2024-12-01 08:36:09,399 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-01 08:36:09,399 - INFO - batch_data shape now became (114857, 12)
+2024-12-01 08:36:09,399 - INFO - Generating sequences of length 10 for dataset
+2024-12-01 08:36:11,395 - INFO - Generated sequences
+2024-12-01 12:35:28,639 - INFO - Batch 7 training completed
+2024-12-01 12:35:28,655 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-01 12:35:28,696 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-01 12:35:29,070 - INFO - Batch 7 Intermediate model saved and memory cleaned
+2024-12-01 12:35:29,072 - INFO - Loading model for batch 8
+2024-12-01 12:35:29,295 - INFO - Loaded batch 8 dataset with shape (104857, 12)
+2024-12-01 12:35:29,303 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-01 12:35:29,303 - INFO - batch_data shape now became (114857, 12)
+2024-12-01 12:35:29,303 - INFO - Generating sequences of length 10 for dataset
+2024-12-01 12:35:31,303 - INFO - Generated sequences
+2024-12-01 16:34:59,861 - INFO - Batch 8 training completed
+2024-12-01 16:34:59,877 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-01 16:34:59,917 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-01 16:35:00,294 - INFO - Batch 8 Intermediate model saved and memory cleaned
+2024-12-01 16:35:00,295 - INFO - Training process completed
+2024-12-01 16:35:00,336 - INFO - Model 'LSTM_Final_model' sucessfully saved to ./saved_models/LSTM_Final_model.keras
+2024-12-01 16:35:00,406 - INFO - Model 'LSTM_Final_model' sucessfully verified after saving.
+2024-12-01 16:35:00,782 - INFO - Generating sequences of length 10 for dataset
+2024-12-01 16:35:01,719 - INFO - Generated sequences
+2024-12-01 16:36:21,834 - INFO - Computed and cached new threshold value
+2024-12-01 16:36:21,834 - INFO - Anomaly Threshold Computation:
+                Mean MSE  : 54216.25
+                Std MSE   : 201948.234375
+                Threshold : 458112.71875
+2024-12-01 16:36:21,838 - INFO - Pipeline ended.
+2024-12-02 15:03:22,098 - INFO - Started Pipeline ...
+2024-12-02 15:03:22,101 - INFO - Shape of the input (10, 12)
+2024-12-02 15:03:22,101 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-02 15:03:23,288 - INFO - Dense used input as input_shape[1] is 12
+2024-12-02 15:03:23,294 - INFO - LSTM Model Compiled
+2024-12-02 15:03:23,294 - INFO - Starting training process
+2024-12-02 15:03:23,295 - INFO - Loading model for batch 2
+2024-12-02 15:03:23,450 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-12-02 15:03:23,459 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 15:03:23,459 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 15:03:23,459 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:03:25,393 - INFO - Generated sequences
+2024-12-02 15:08:02,397 - INFO - Batch 2 training completed
+2024-12-02 15:08:02,413 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 15:08:02,452 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 15:08:02,708 - INFO - Batch 2 Intermediate model saved and memory cleaned
+2024-12-02 15:08:02,708 - INFO - Loading model for batch 3
+2024-12-02 15:08:02,854 - INFO - Loaded batch 3 dataset with shape (104857, 12)
+2024-12-02 15:08:02,862 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 15:08:02,862 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 15:08:02,862 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:08:04,901 - INFO - Generated sequences
+2024-12-02 15:12:38,924 - INFO - Batch 3 training completed
+2024-12-02 15:12:38,940 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 15:12:38,979 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 15:12:39,254 - INFO - Batch 3 Intermediate model saved and memory cleaned
+2024-12-02 15:12:39,255 - INFO - Loading model for batch 4
+2024-12-02 15:12:39,402 - INFO - Loaded batch 4 dataset with shape (104857, 12)
+2024-12-02 15:12:39,410 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 15:12:39,410 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 15:12:39,410 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:12:41,538 - INFO - Generated sequences
+2024-12-02 15:17:15,675 - INFO - Batch 4 training completed
+2024-12-02 15:17:15,693 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 15:17:15,738 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 15:17:16,052 - INFO - Batch 4 Intermediate model saved and memory cleaned
+2024-12-02 15:17:16,053 - INFO - Loading model for batch 5
+2024-12-02 15:17:16,219 - INFO - Loaded batch 5 dataset with shape (104857, 12)
+2024-12-02 15:17:16,228 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 15:17:16,228 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 15:17:16,228 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:17:18,577 - INFO - Generated sequences
+2024-12-02 15:21:55,358 - INFO - Batch 5 training completed
+2024-12-02 15:21:55,373 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 15:21:55,411 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 15:21:55,685 - INFO - Batch 5 Intermediate model saved and memory cleaned
+2024-12-02 15:21:55,686 - INFO - Loading model for batch 6
+2024-12-02 15:21:55,828 - INFO - Loaded batch 6 dataset with shape (104857, 12)
+2024-12-02 15:21:55,836 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 15:21:55,836 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 15:21:55,836 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:21:57,939 - INFO - Generated sequences
+2024-12-02 15:26:34,108 - INFO - Batch 6 training completed
+2024-12-02 15:26:34,124 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 15:26:34,165 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 15:26:34,427 - INFO - Batch 6 Intermediate model saved and memory cleaned
+2024-12-02 15:26:34,429 - INFO - Loading model for batch 7
+2024-12-02 15:26:34,574 - INFO - Loaded batch 7 dataset with shape (104857, 12)
+2024-12-02 15:26:34,581 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 15:26:34,581 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 15:26:34,581 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:26:36,641 - INFO - Generated sequences
+2024-12-02 15:31:13,520 - INFO - Batch 7 training completed
+2024-12-02 15:31:13,536 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 15:31:13,575 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 15:31:13,842 - INFO - Batch 7 Intermediate model saved and memory cleaned
+2024-12-02 15:31:13,843 - INFO - Loading model for batch 8
+2024-12-02 15:31:13,985 - INFO - Loaded batch 8 dataset with shape (104857, 12)
+2024-12-02 15:31:13,992 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 15:31:13,992 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 15:31:13,992 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:31:16,090 - INFO - Generated sequences
+2024-12-02 15:35:51,780 - INFO - Batch 8 training completed
+2024-12-02 15:35:51,796 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 15:35:51,840 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 15:35:52,104 - INFO - Batch 8 Intermediate model saved and memory cleaned
+2024-12-02 15:35:52,105 - INFO - Training process completed
+2024-12-02 15:35:52,142 - INFO - Model 'LSTM_Final_model' sucessfully saved to ./saved_models/LSTM_Final_model.keras
+2024-12-02 15:35:52,210 - INFO - Model 'LSTM_Final_model' sucessfully verified after saving.
+2024-12-02 15:35:52,243 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:35:53,170 - INFO - Generated sequences
+2024-12-02 15:37:05,243 - INFO - Computed and cached new threshold value
+2024-12-02 15:37:05,244 - INFO - Anomaly Threshold Computation:
+                Mean MSE  : 54027.5078125
+                Std MSE   : 201923.78125
+                Threshold : 457875.0703125
+2024-12-02 15:37:05,249 - INFO - Pipeline ended.
+2024-12-02 15:39:40,297 - INFO - Started Pipeline ...
+2024-12-02 15:39:40,300 - INFO - Shape of the input (10, 12)
+2024-12-02 15:39:40,300 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-02 15:39:41,144 - INFO - Dense used input as input_shape[1] is 12
+2024-12-02 15:39:41,149 - INFO - LSTM Model Compiled
+2024-12-02 15:39:41,149 - INFO - Starting training process
+2024-12-02 15:39:41,149 - INFO - Skipping the model training step ...
+2024-12-02 15:39:41,149 - INFO - Loaded the model from path ./saved_models/LSTM_Final_model.keras
+2024-12-02 15:39:41,220 - INFO - Model 'LSTM_Final_model' sucessfully saved to ./saved_models/LSTM_Final_model.keras
+2024-12-02 15:39:41,261 - INFO - Model 'LSTM_Final_model' sucessfully verified after saving.
+2024-12-02 15:39:41,297 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 15:39:42,380 - INFO - Generated sequences
+2024-12-02 15:40:53,958 - INFO - Computed and cached new threshold value
+2024-12-02 15:40:53,959 - INFO - Anomaly Threshold Computation:
+                Mean MSE  : 54027.5078125
+                Std MSE   : 201923.78125
+                Threshold : 457875.0703125
+2024-12-02 15:40:53,963 - INFO - Pipeline ended.
+2024-12-02 16:10:25,401 - INFO - Started Pipeline ...
+2024-12-02 16:10:25,404 - INFO - Shape of the input (10, 12)
+2024-12-02 16:10:25,404 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-02 16:10:26,257 - INFO - Dense used input as input_shape[1] is 12
+2024-12-02 16:10:26,262 - INFO - LSTM Model Compiled
+2024-12-02 16:10:26,262 - INFO - Starting training process
+2024-12-02 16:10:26,328 - INFO - Loaded first batch dataset with shape (104857, 12)
+2024-12-02 16:10:26,328 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:10:28,179 - INFO - Generated sequences
+2024-12-02 16:14:48,371 - INFO - First batch training completed
+2024-12-02 16:14:48,399 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:14:48,444 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:14:48,644 - INFO - Batch 1 Intermediate model saved and memory cleaned
+2024-12-02 16:14:48,645 - INFO - Loading model for batch 2
+2024-12-02 16:14:48,782 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-12-02 16:14:48,791 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:14:48,791 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:14:48,791 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:14:50,841 - INFO - Generated sequences
+2024-12-02 16:19:35,842 - INFO - Batch 2 training completed
+2024-12-02 16:19:35,857 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:19:35,897 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:19:36,220 - INFO - Batch 2 Intermediate model saved and memory cleaned
+2024-12-02 16:19:36,221 - INFO - Loading model for batch 3
+2024-12-02 16:19:36,366 - INFO - Loaded batch 3 dataset with shape (104857, 12)
+2024-12-02 16:19:36,373 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:19:36,373 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:19:36,373 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:19:38,306 - INFO - Generated sequences
+2024-12-02 16:24:23,654 - INFO - Batch 3 training completed
+2024-12-02 16:24:23,670 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:24:23,709 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:24:24,060 - INFO - Batch 3 Intermediate model saved and memory cleaned
+2024-12-02 16:24:24,061 - INFO - Loading model for batch 4
+2024-12-02 16:24:24,204 - INFO - Loaded batch 4 dataset with shape (104857, 12)
+2024-12-02 16:24:24,211 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:24:24,211 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:24:24,211 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:24:26,177 - INFO - Generated sequences
+2024-12-02 16:29:10,808 - INFO - Batch 4 training completed
+2024-12-02 16:29:10,824 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:29:10,864 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:29:11,234 - INFO - Batch 4 Intermediate model saved and memory cleaned
+2024-12-02 16:29:11,235 - INFO - Loading model for batch 5
+2024-12-02 16:29:11,380 - INFO - Loaded batch 5 dataset with shape (104857, 12)
+2024-12-02 16:29:11,388 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:29:11,388 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:29:11,388 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:29:13,357 - INFO - Generated sequences
+2024-12-02 16:33:59,641 - INFO - Batch 5 training completed
+2024-12-02 16:33:59,657 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:33:59,698 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:34:00,069 - INFO - Batch 5 Intermediate model saved and memory cleaned
+2024-12-02 16:34:00,069 - INFO - Loading model for batch 6
+2024-12-02 16:34:00,214 - INFO - Loaded batch 6 dataset with shape (104857, 12)
+2024-12-02 16:34:00,222 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:34:00,222 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:34:00,222 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:34:02,202 - INFO - Generated sequences
+2024-12-02 16:38:47,796 - INFO - Batch 6 training completed
+2024-12-02 16:38:47,813 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:38:47,852 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:38:48,221 - INFO - Batch 6 Intermediate model saved and memory cleaned
+2024-12-02 16:38:48,222 - INFO - Loading model for batch 7
+2024-12-02 16:38:48,367 - INFO - Loaded batch 7 dataset with shape (104857, 12)
+2024-12-02 16:38:48,374 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:38:48,375 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:38:48,375 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:38:50,342 - INFO - Generated sequences
+2024-12-02 16:43:36,549 - INFO - Batch 7 training completed
+2024-12-02 16:43:36,566 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:43:36,606 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:43:36,975 - INFO - Batch 7 Intermediate model saved and memory cleaned
+2024-12-02 16:43:36,976 - INFO - Loading model for batch 8
+2024-12-02 16:43:37,121 - INFO - Loaded batch 8 dataset with shape (104857, 12)
+2024-12-02 16:43:37,129 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:43:37,129 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:43:37,129 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:43:39,108 - INFO - Generated sequences
+2024-12-02 16:48:25,364 - INFO - Batch 8 training completed
+2024-12-02 16:48:25,380 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:48:25,420 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:48:25,789 - INFO - Batch 8 Intermediate model saved and memory cleaned
+2024-12-02 16:48:25,790 - INFO - Training process completed
+2024-12-02 16:48:25,829 - INFO - Model 'LSTM_Final_model' sucessfully saved to ./saved_models/LSTM_Final_model.keras
+2024-12-02 16:48:25,896 - INFO - Model 'LSTM_Final_model' sucessfully verified after saving.
+2024-12-02 16:48:25,930 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:48:26,874 - INFO - Generated sequences
+2024-12-02 16:49:42,068 - INFO - Computed and cached new threshold value
+2024-12-02 16:49:42,069 - INFO - Anomaly Threshold Computation:
+                Mean MSE  : 32515.697265625
+                Std MSE   : 127751.1796875
+                Threshold : 288018.056640625
+2024-12-02 16:49:42,073 - INFO - Pipeline ended.
+2024-12-02 16:52:16,767 - INFO - Started Pipeline ...
+2024-12-02 16:52:16,770 - INFO - Shape of the input (10, 12)
+2024-12-02 16:52:16,770 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-02 16:52:17,615 - INFO - Dense used input as input_shape[1] is 12
+2024-12-02 16:52:17,620 - INFO - LSTM Model Compiled
+2024-12-02 16:52:17,620 - INFO - Starting training process
+2024-12-02 16:52:17,620 - INFO - Loading model for batch 2
+2024-12-02 16:52:17,736 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-12-02 16:52:17,744 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:52:17,744 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:52:17,744 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:52:19,653 - INFO - Generated sequences
+2024-12-02 16:56:53,841 - INFO - Batch 2 training completed
+2024-12-02 16:56:53,858 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 16:56:53,897 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 16:56:54,155 - INFO - Batch 2 Intermediate model saved and memory cleaned
+2024-12-02 16:56:54,156 - INFO - Loading model for batch 3
+2024-12-02 16:56:54,303 - INFO - Loaded batch 3 dataset with shape (104857, 12)
+2024-12-02 16:56:54,312 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 16:56:54,312 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 16:56:54,312 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 16:56:56,313 - INFO - Generated sequences
+2024-12-02 17:01:30,829 - INFO - Batch 3 training completed
+2024-12-02 17:01:30,845 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:01:30,885 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:01:31,147 - INFO - Batch 3 Intermediate model saved and memory cleaned
+2024-12-02 17:01:31,147 - INFO - Loading model for batch 4
+2024-12-02 17:01:31,290 - INFO - Loaded batch 4 dataset with shape (104857, 12)
+2024-12-02 17:01:31,298 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:01:31,298 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:01:31,298 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:01:33,312 - INFO - Generated sequences
+2024-12-02 17:06:06,844 - INFO - Batch 4 training completed
+2024-12-02 17:06:06,860 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:06:06,899 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:06:07,159 - INFO - Batch 4 Intermediate model saved and memory cleaned
+2024-12-02 17:06:07,159 - INFO - Loading model for batch 5
+2024-12-02 17:06:07,305 - INFO - Loaded batch 5 dataset with shape (104857, 12)
+2024-12-02 17:06:07,313 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:06:07,313 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:06:07,313 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:06:09,359 - INFO - Generated sequences
+2024-12-02 17:10:41,888 - INFO - Batch 5 training completed
+2024-12-02 17:10:41,904 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:10:41,943 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:10:42,206 - INFO - Batch 5 Intermediate model saved and memory cleaned
+2024-12-02 17:10:42,207 - INFO - Loading model for batch 6
+2024-12-02 17:10:42,352 - INFO - Loaded batch 6 dataset with shape (104857, 12)
+2024-12-02 17:10:42,360 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:10:42,360 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:10:42,360 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:10:44,386 - INFO - Generated sequences
+2024-12-02 17:15:19,316 - INFO - Batch 6 training completed
+2024-12-02 17:15:19,332 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:15:19,373 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:15:19,635 - INFO - Batch 6 Intermediate model saved and memory cleaned
+2024-12-02 17:15:19,636 - INFO - Loading model for batch 7
+2024-12-02 17:15:19,783 - INFO - Loaded batch 7 dataset with shape (104857, 12)
+2024-12-02 17:15:19,791 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:15:19,791 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:15:19,791 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:15:21,819 - INFO - Generated sequences
+2024-12-02 17:19:56,570 - INFO - Batch 7 training completed
+2024-12-02 17:19:56,586 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:19:56,625 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:19:56,889 - INFO - Batch 7 Intermediate model saved and memory cleaned
+2024-12-02 17:19:56,890 - INFO - Loading model for batch 8
+2024-12-02 17:19:57,037 - INFO - Loaded batch 8 dataset with shape (104857, 12)
+2024-12-02 17:19:57,045 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:19:57,045 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:19:57,045 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:19:59,097 - INFO - Generated sequences
+2024-12-02 17:24:33,166 - INFO - Batch 8 training completed
+2024-12-02 17:24:33,182 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:24:33,221 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:24:33,487 - INFO - Batch 8 Intermediate model saved and memory cleaned
+2024-12-02 17:24:33,488 - INFO - Training process completed
+2024-12-02 17:24:33,523 - INFO - Model 'LSTM_Final_model' sucessfully saved to ./saved_models/LSTM_Final_model.keras
+2024-12-02 17:24:33,589 - INFO - Model 'LSTM_Final_model' sucessfully verified after saving.
+2024-12-02 17:24:33,624 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:24:34,554 - INFO - Generated sequences
+2024-12-02 17:25:46,190 - INFO - Computed and cached new threshold value
+2024-12-02 17:25:46,190 - INFO - Anomaly Threshold Computation:
+                Mean MSE  : 11325.1630859375
+                Std MSE   : 61751.359375
+                Threshold : 134827.8818359375
+2024-12-02 17:25:46,195 - INFO - Pipeline ended.
+2024-12-02 17:25:54,304 - INFO - Started Pipeline ...
+2024-12-02 17:25:54,307 - INFO - Shape of the input (10, 12)
+2024-12-02 17:25:54,308 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-02 17:25:55,144 - INFO - Dense used input as input_shape[1] is 12
+2024-12-02 17:25:55,149 - INFO - LSTM Model Compiled
+2024-12-02 17:25:55,150 - INFO - Starting training process
+2024-12-02 17:25:55,150 - INFO - Loading model for batch 2
+2024-12-02 17:25:55,266 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-12-02 17:25:55,275 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:25:55,275 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:25:55,275 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:25:57,185 - INFO - Generated sequences
+2024-12-02 17:30:32,972 - INFO - Batch 2 training completed
+2024-12-02 17:30:32,989 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:30:33,029 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:30:33,303 - INFO - Batch 2 Intermediate model saved and memory cleaned
+2024-12-02 17:30:33,304 - INFO - Loading model for batch 3
+2024-12-02 17:30:33,456 - INFO - Loaded batch 3 dataset with shape (104857, 12)
+2024-12-02 17:30:33,463 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:30:33,464 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:30:33,464 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:30:35,509 - INFO - Generated sequences
+2024-12-02 17:35:11,886 - INFO - Batch 3 training completed
+2024-12-02 17:35:11,902 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:35:11,943 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:35:12,204 - INFO - Batch 3 Intermediate model saved and memory cleaned
+2024-12-02 17:35:12,205 - INFO - Loading model for batch 4
+2024-12-02 17:35:12,349 - INFO - Loaded batch 4 dataset with shape (104857, 12)
+2024-12-02 17:35:12,357 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:35:12,357 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:35:12,357 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:35:14,397 - INFO - Generated sequences
+2024-12-02 17:39:50,662 - INFO - Batch 4 training completed
+2024-12-02 17:39:50,678 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:39:50,725 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:39:50,989 - INFO - Batch 4 Intermediate model saved and memory cleaned
+2024-12-02 17:39:50,989 - INFO - Loading model for batch 5
+2024-12-02 17:39:51,135 - INFO - Loaded batch 5 dataset with shape (104857, 12)
+2024-12-02 17:39:51,143 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:39:51,143 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:39:51,143 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:39:53,198 - INFO - Generated sequences
+2024-12-02 17:44:29,634 - INFO - Batch 5 training completed
+2024-12-02 17:44:29,650 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:44:29,690 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:44:29,970 - INFO - Batch 5 Intermediate model saved and memory cleaned
+2024-12-02 17:44:29,971 - INFO - Loading model for batch 6
+2024-12-02 17:44:30,120 - INFO - Loaded batch 6 dataset with shape (104857, 12)
+2024-12-02 17:44:30,128 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:44:30,128 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:44:30,128 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:44:32,232 - INFO - Generated sequences
+2024-12-02 17:49:09,520 - INFO - Batch 6 training completed
+2024-12-02 17:49:09,537 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:49:09,585 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:49:09,863 - INFO - Batch 6 Intermediate model saved and memory cleaned
+2024-12-02 17:49:09,864 - INFO - Loading model for batch 7
+2024-12-02 17:49:10,014 - INFO - Loaded batch 7 dataset with shape (104857, 12)
+2024-12-02 17:49:10,022 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:49:10,022 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:49:10,022 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:49:12,117 - INFO - Generated sequences
+2024-12-02 17:53:49,130 - INFO - Batch 7 training completed
+2024-12-02 17:53:49,146 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:53:49,187 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:53:49,456 - INFO - Batch 7 Intermediate model saved and memory cleaned
+2024-12-02 17:53:49,457 - INFO - Loading model for batch 8
+2024-12-02 17:53:49,612 - INFO - Loaded batch 8 dataset with shape (104857, 12)
+2024-12-02 17:53:49,620 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 17:53:49,621 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 17:53:49,621 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:53:51,684 - INFO - Generated sequences
+2024-12-02 17:58:28,772 - INFO - Batch 8 training completed
+2024-12-02 17:58:28,788 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 17:58:28,828 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 17:58:29,110 - INFO - Batch 8 Intermediate model saved and memory cleaned
+2024-12-02 17:58:29,111 - INFO - Training process completed
+2024-12-02 17:58:29,148 - INFO - Model 'LSTM_Final_model' sucessfully saved to ./saved_models/LSTM_Final_model.keras
+2024-12-02 17:58:29,214 - INFO - Model 'LSTM_Final_model' sucessfully verified after saving.
+2024-12-02 17:58:29,249 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 17:58:30,195 - INFO - Generated sequences
+2024-12-02 17:59:41,548 - INFO - Computed and cached new threshold value
+2024-12-02 17:59:41,548 - INFO - Anomaly Threshold Computation:
+                Mean MSE  : 899.4284057617188
+                Std MSE   : 40275.0625
+                Threshold : 81449.55340576172
+2024-12-02 17:59:41,553 - INFO - Pipeline ended.
+2024-12-02 18:01:04,192 - INFO - Started Pipeline ...
+2024-12-02 18:01:04,195 - INFO - Shape of the input (10, 12)
+2024-12-02 18:01:04,196 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-02 18:01:05,056 - INFO - Dense used input as input_shape[1] is 12
+2024-12-02 18:01:05,060 - INFO - LSTM Model Compiled
+2024-12-02 18:01:05,060 - INFO - Starting training process
+2024-12-02 18:01:05,061 - INFO - Loading model for batch 2
+2024-12-02 18:01:05,190 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-12-02 18:01:05,199 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 18:01:05,199 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 18:01:05,199 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:01:07,217 - INFO - Generated sequences
+2024-12-02 18:05:45,611 - INFO - Batch 2 training completed
+2024-12-02 18:05:45,628 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 18:05:45,666 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 18:05:45,942 - INFO - Batch 2 Intermediate model saved and memory cleaned
+2024-12-02 18:05:45,942 - INFO - Loading model for batch 3
+2024-12-02 18:05:46,097 - INFO - Loaded batch 3 dataset with shape (104857, 12)
+2024-12-02 18:05:46,105 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 18:05:46,105 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 18:05:46,105 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:05:48,184 - INFO - Generated sequences
+2024-12-02 18:10:25,535 - INFO - Batch 3 training completed
+2024-12-02 18:10:25,551 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 18:10:25,589 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 18:10:25,860 - INFO - Batch 3 Intermediate model saved and memory cleaned
+2024-12-02 18:10:25,861 - INFO - Loading model for batch 4
+2024-12-02 18:10:26,006 - INFO - Loaded batch 4 dataset with shape (104857, 12)
+2024-12-02 18:10:26,014 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 18:10:26,014 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 18:10:26,014 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:10:28,103 - INFO - Generated sequences
+2024-12-02 18:15:04,881 - INFO - Batch 4 training completed
+2024-12-02 18:15:04,896 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 18:15:04,936 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 18:15:05,214 - INFO - Batch 4 Intermediate model saved and memory cleaned
+2024-12-02 18:15:05,214 - INFO - Loading model for batch 5
+2024-12-02 18:15:05,362 - INFO - Loaded batch 5 dataset with shape (104857, 12)
+2024-12-02 18:15:05,370 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 18:15:05,370 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 18:15:05,370 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:15:07,496 - INFO - Generated sequences
+2024-12-02 18:19:44,965 - INFO - Batch 5 training completed
+2024-12-02 18:19:44,981 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 18:19:45,023 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 18:19:45,299 - INFO - Batch 5 Intermediate model saved and memory cleaned
+2024-12-02 18:19:45,301 - INFO - Loading model for batch 6
+2024-12-02 18:19:45,449 - INFO - Loaded batch 6 dataset with shape (104857, 12)
+2024-12-02 18:19:45,457 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 18:19:45,457 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 18:19:45,457 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:19:47,560 - INFO - Generated sequences
+2024-12-02 18:24:26,122 - INFO - Batch 6 training completed
+2024-12-02 18:24:26,138 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 18:24:26,177 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 18:24:26,455 - INFO - Batch 6 Intermediate model saved and memory cleaned
+2024-12-02 18:24:26,456 - INFO - Loading model for batch 7
+2024-12-02 18:24:26,605 - INFO - Loaded batch 7 dataset with shape (104857, 12)
+2024-12-02 18:24:26,613 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 18:24:26,613 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 18:24:26,613 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:24:28,720 - INFO - Generated sequences
+2024-12-02 18:29:06,198 - INFO - Batch 7 training completed
+2024-12-02 18:29:06,214 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 18:29:06,253 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 18:29:06,523 - INFO - Batch 7 Intermediate model saved and memory cleaned
+2024-12-02 18:29:06,524 - INFO - Loading model for batch 8
+2024-12-02 18:29:06,674 - INFO - Loaded batch 8 dataset with shape (104857, 12)
+2024-12-02 18:29:06,682 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 18:29:06,683 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 18:29:06,683 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:29:08,757 - INFO - Generated sequences
+2024-12-02 18:33:46,988 - INFO - Batch 8 training completed
+2024-12-02 18:33:47,004 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-02 18:33:47,043 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-02 18:33:47,319 - INFO - Batch 8 Intermediate model saved and memory cleaned
+2024-12-02 18:33:47,320 - INFO - Training process completed
+2024-12-02 18:33:47,356 - INFO - Model 'LSTM_Final_model' sucessfully saved to ./saved_models/LSTM_Final_model.keras
+2024-12-02 18:33:47,423 - INFO - Model 'LSTM_Final_model' sucessfully verified after saving.
+2024-12-02 18:33:47,457 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:33:48,406 - INFO - Generated sequences
+2024-12-02 18:35:00,330 - INFO - Computed and cached new threshold value
+2024-12-02 18:35:00,331 - INFO - Anomaly Threshold Computation:
+                Mean MSE  : 476.450439453125
+                Std MSE   : 4211.8046875
+                Threshold : 8900.059814453125
+2024-12-02 18:35:00,335 - INFO - Pipeline ended.
+
+
+2024-12-02 18:38:34,557 - INFO - Started Pipeline ...
+2024-12-02 18:38:34,561 - INFO - Shape of the input (10, 12)
+2024-12-02 18:38:34,561 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-02 18:38:35,424 - INFO - Dense used input as input_shape[1] is 12
+2024-12-02 18:38:35,429 - INFO - LSTM Model Compiled
+2024-12-02 18:38:35,429 - INFO - Starting training process
+2024-12-02 18:38:35,429 - INFO - Loading model for batch 2
+2024-12-02 18:38:35,552 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-12-02 18:38:35,561 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-02 18:38:35,562 - INFO - batch_data shape now became (114857, 12)
+2024-12-02 18:38:35,562 - INFO - Generating sequences of length 10 for dataset
+2024-12-02 18:38:37,573 - INFO - Generated sequences
+2024-12-02 18:44:17,245 - ERROR - ==================================
+Object was never used (type <class 'tensorflow.python.ops.tensor_array_ops.TensorArray'>):
+<tensorflow.python.ops.tensor_array_ops.TensorArray object at 0x7f75e85bfa00>
+If you want to mark it as used call its "mark_used()" method.
+It was originally created here:
+  File "/home/mite/anaconda3/envs/insider_threat/lib/python3.10/site-packages/keras/src/backend/tensorflow/rnn.py", line 418, in <genexpr>
+    output_ta_t = tuple(  File "/home/mite/anaconda3/envs/insider_threat/lib/python3.10/site-packages/tensorflow/python/util/tf_should_use.py", line 288, in wrapped
+    return _add_should_use_warning(fn(*args, **kwargs),
+==================================
+2024-12-03 15:18:23,380 - INFO - Started Pipeline ...
+2024-12-03 15:18:23,580 - INFO - Shape of the input (10, 12)
+2024-12-03 15:18:23,583 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-03 15:18:33,039 - INFO - Dense used input as input_shape[1] is 12
+2024-12-03 15:18:33,044 - INFO - LSTM Model Compiled
+2024-12-03 15:18:33,044 - INFO - Starting training process
+2024-12-03 15:18:33,044 - INFO - Loading model for batch 2
+2024-12-03 15:18:33,397 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-12-03 15:18:33,420 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-03 15:18:33,420 - INFO - batch_data shape now became (114857, 12)
+2024-12-03 15:18:33,420 - INFO - Generating sequences of length 10 for dataset
+2024-12-03 15:18:35,359 - INFO - Generated sequences
+2024-12-03 16:51:41,467 - INFO - Batch 2 training completed
+2024-12-03 16:51:41,846 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-03 16:51:41,885 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-03 16:51:42,136 - INFO - Batch 2 Intermediate model saved and memory cleaned
+2024-12-03 16:51:42,137 - INFO - Loading model for batch 3
+2024-12-03 16:51:42,367 - INFO - Loaded batch 3 dataset with shape (104857, 12)
+2024-12-03 16:51:42,375 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-03 16:51:42,375 - INFO - batch_data shape now became (114857, 12)
+2024-12-03 16:51:42,375 - INFO - Generating sequences of length 10 for dataset
+2024-12-03 16:51:44,376 - INFO - Generated sequences
+2024-12-05 09:09:18,823 - INFO - Started Pipeline ...
+2024-12-05 09:09:19,007 - INFO - Shape of the input (10, 12)
+2024-12-05 09:09:19,010 - INFO - Input shape used for LSTM input (10, 12)
+2024-12-05 09:09:28,066 - INFO - Dense used input as input_shape[1] is 12
+2024-12-05 09:09:28,071 - INFO - LSTM Model Compiled
+2024-12-05 09:09:28,071 - INFO - Starting training process
+2024-12-05 09:09:28,071 - INFO - Loading model for batch 2
+2024-12-05 09:09:28,469 - INFO - Loaded batch 2 dataset with shape (104857, 12)
+2024-12-05 09:09:28,487 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-05 09:09:28,487 - INFO - batch_data shape now became (114857, 12)
+2024-12-05 09:09:28,487 - INFO - Generating sequences of length 10 for dataset
+2024-12-05 09:09:30,399 - INFO - Generated sequences
+2024-12-05 10:09:20,788 - INFO - Batch 2 training completed
+2024-12-05 10:09:20,920 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-05 10:09:20,960 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-05 10:09:21,213 - INFO - Batch 2 Intermediate model saved and memory cleaned
+2024-12-05 10:09:21,213 - INFO - Loading model for batch 3
+2024-12-05 10:09:21,443 - INFO - Loaded batch 3 dataset with shape (104857, 12)
+2024-12-05 10:09:21,451 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-05 10:09:21,451 - INFO - batch_data shape now became (114857, 12)
+2024-12-05 10:09:21,452 - INFO - Generating sequences of length 10 for dataset
+2024-12-05 10:09:23,450 - INFO - Generated sequences
+2024-12-05 11:09:22,751 - INFO - Batch 3 training completed
+2024-12-05 11:09:22,766 - INFO - Model 'intermediate_model' sucessfully saved to ./saved_models/intermediate_model.keras
+2024-12-05 11:09:22,806 - INFO - Model 'intermediate_model' sucessfully verified after saving.
+2024-12-05 11:09:23,061 - INFO - Batch 3 Intermediate model saved and memory cleaned
+2024-12-05 11:09:23,062 - INFO - Loading model for batch 4
+2024-12-05 11:09:23,295 - INFO - Loaded batch 4 dataset with shape (104857, 12)
+2024-12-05 11:09:23,302 - INFO - Added 10% of Previous dataset to the current dataset
+2024-12-05 11:09:23,303 - INFO - batch_data shape now became (114857, 12)
+2024-12-05 11:09:23,303 - INFO - Generating sequences of length 10 for dataset
+2024-12-05 11:09:25,304 - INFO - Generated sequences
+2024-12-05 11:41:23,834 - ERROR - ==================================
+Object was never used (type <class 'tensorflow.python.ops.tensor_array_ops.TensorArray'>):
+<tensorflow.python.ops.tensor_array_ops.TensorArray object at 0x7f34b40e84f0>
+If you want to mark it as used call its "mark_used()" method.
+It was originally created here:
+  File "/home/mite/anaconda3/envs/insider_threat/lib/python3.10/site-packages/keras/src/backend/tensorflow/rnn.py", line 418, in <genexpr>
+    output_ta_t = tuple(  File "/home/mite/anaconda3/envs/insider_threat/lib/python3.10/site-packages/tensorflow/python/util/tf_should_use.py", line 288, in wrapped
+    return _add_should_use_warning(fn(*args, **kwargs),
+==================================

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <title>Threat Alert Notification</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        color: #39444d;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0 0 20px 0;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 0 24px 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      th, td {
+        border: 1px solid #c5ced6;
+        padding: 8px;
+        text-align: left;
+        font-size: 14px;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      .alert {
+        color: red;
+        font-weight: bold;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          padding: 15px;
+        }
+
+        h1 {
+          font-size: 20px;
+        }
+
+        p, th, td {
+          font-size: 14px;
+        }
+
+        th, td {
+          padding: 6px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div role="article" aria-roledescription="email" aria-label="Threat Alert Notification" lang="en" style="font-size:16px; font-size:1rem; font-size:max(16px, 1rem)">
+      <div class="container">
+        <h1 class="alert">⚠️ Threat Detected!</h1>
+        <p>
+          A potential threat has been detected in the system. Please review the details below and take necessary actions.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>User ID</th>
+              <th>PC ID</th>
+              <th>To Outside</th>
+              <th>From Outside</th>
+              <th>Has Attachment</th>
+              <th>Is Executable</th>
+              <th>File Open</th>
+              <th>Logon</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{threat_date}}</td>
+              <td>{{user_id}}</td>
+              <td>{{pc_id}}</td>
+              <td>{{to_outside}}</td>
+              <td>{{from_outside}}</td>
+              <td>{{has_attachment}}</td>
+              <td>{{is_exe}}</td>
+              <td>{{file_open}}</td>
+              <td>{{logon}}</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <i>Please ensure that this threat is addressed promptly to maintain system security.</i>
+        </p>
+        <p>
+          Regards,<br>
+          Security Team
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
